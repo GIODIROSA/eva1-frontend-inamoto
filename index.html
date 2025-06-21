@@ -10,6 +10,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./splide.min.css" />
     <title>Eva1-inamoto-frontend</title>
   </head>
   <body>
@@ -56,23 +57,115 @@
     </header>
     <!-- FINAL HEADER -->
 
+    <!-- BANNER CAORUSEL -->
+    <section
+      class="splide"
+      id="inamotoBannerCauroselVinilo"
+      aria-label="carousel"
+    >
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <div class="contenedor-img-actualidad">
+              <picture>
+                <!-- DESKTP -->
+                <source
+                  media="(min-width:700px)"
+                  type="image/webp"
+                  srcset=""
+                  alt=""
+                />
+                <!-- DESKTP -->
+                <source
+                  media="(min-width:700px)"
+                  srcset="./img/carousel-noticia-portal-home.png"
+                />
+                <!-- DESKTP -->
+                <source type="image/webp" srcset="" alt="comprar rlive" />
+                <!-- MOBILE -->
+                <img
+                  src="./img/mobile-noticia-actualizada.png"
+                  alt="comprar rlive"
+                />
+              </picture>
+            </div>
+          </li>
+          <li class="splide__slide">
+            <div class="contenedor-img-actualidad">
+              <picture>
+                <!-- DESKTP -->
+                <source
+                  media="(min-width:700px)"
+                  type="image/webp"
+                  srcset=""
+                  alt=""
+                />
+                <!-- DESKTP -->
+                <source
+                  media="(min-width:700px)"
+                  srcset="./img/carousel-noticia-portal-home.png"
+                />
+                <!-- DESKTP -->
+                <source type="image/webp" srcset="" alt="comprar rlive" />
+                <!-- MOBILE -->
+                <img
+                  src="./img/mobile-noticia-actualizada.png"
+                  alt="comprar rlive"
+                />
+              </picture>
+            </div>
+          </li>
+          <li class="splide__slide">
+            <div class="contenedor-img-actualidad">
+              <picture>
+                <!-- DESKTP -->
+                <source
+                  media="(min-width:700px)"
+                  type="image/webp"
+                  srcset=""
+                  alt=""
+                />
+                <!-- DESKTP -->
+                <source
+                  media="(min-width:700px)"
+                  srcset="./img/carousel-noticia-portal-home.png"
+                />
+                <!-- DESKTP -->
+                <source type="image/webp" srcset="" alt="comprar rlive" />
+                <!-- MOBILE -->
+                <img
+                  src="./img/mobile-noticia-actualizada.png"
+                  alt="comprar rlive"
+                />
+              </picture>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
     <!-- INICIO SECTION - GRID- CARD - VINILOS -->
-    <section class="inamoto-contendor-grid-card container mt-5"></section>
+    <section
+      class="inamoto-contendor-grid-card container mx-auto mt-5"
+    ></section>
     <!-- FINAL SECTION - GRID- CARD - VINILOS -->
 
-    <template>
-      <div class="card" style="width: 18rem">
+    <!-- TEMPLATE DE CARD -->
+    <template id="inamoto-template-card">
+      <div class="card rounded-2" style="width: 18rem">
         <img src="..." class="card-img-top" alt="..." />
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
-          <p class="card-text">
+          <p class="card-text inamoto-card-text-height">
             Some quick example text to build on the card title and make up the
             bulk of the card’s content.
           </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+
+          <span class="card-price"></span>
         </div>
       </div>
     </template>
+    <!-- TEMPLATE DE CARD -->
 
     <script src="/js/main.js" type="module"></script>
     <script
@@ -80,5 +173,6 @@
       integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="./splide.min.css" />
   </body>
 </html>

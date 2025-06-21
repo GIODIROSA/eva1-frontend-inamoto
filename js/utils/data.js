@@ -14,8 +14,7 @@ export const dataMasterVinilo = [
       "El esperado regreso de Los Viajeros del Sonido con un álbum que fusiona lo clásico y lo moderno.",
     descripcionLarga:
       "Un viaje nostálgico a través de diez nuevas composiciones y dos bonus tracks remasterizados. Grabado en Abbey Road Studios, este vinilo de 180 gramos ofrece una calidad de sonido inigualable, transportándote a la época dorada de la música pop. Incluye inserto con letras y fotos exclusivas.",
-    portadaUrl:
-      "https://ejemplo.com/imagenes/vinilos/melodias-ayer-portada.jpg",
+    portadaUrl: "./assets/img/default-imagen.jpg",
     imagenesAdicionales: [
       "https://ejemplo.com/imagenes/vinilos/melodias-ayer-reverso.jpg",
       "https://ejemplo.com/imagenes/vinilos/melodias-ayer-detalle.jpg",
@@ -89,7 +88,7 @@ export const dataMasterVinilo = [
     promocionId: null,
     categoria: "Lanzamientos",
     disponibilidad: "Próximamente",
-    estadoProducto: "Nuevo", // Nuevo campo
+    estadoProducto: "Nuevo",
   },
 
   {
@@ -120,7 +119,7 @@ export const dataMasterVinilo = [
     promocionId: null,
     categoria: "Rock",
     disponibilidad: "En stock",
-    estadoProducto: "Regular", // Nuevo campo
+    estadoProducto: "Nuevo",
   },
   {
     id: 2002,
@@ -144,7 +143,7 @@ export const dataMasterVinilo = [
     promocionId: null,
     categoria: "Jazz",
     disponibilidad: "En stock",
-    estadoProducto: "Regular", // Nuevo campo
+    estadoProducto: "Nuevo",
   },
   {
     id: 2003,
@@ -198,7 +197,7 @@ export const dataMasterVinilo = [
     promocionId: "promo-julio-2025",
     categoria: "Indie",
     disponibilidad: "En stock",
-    estadoProducto: "Regular", // Nuevo campo
+    estadoProducto: "Nuevo", 
   },
 
   // Página 3: Ofertas y Promociones
@@ -223,7 +222,7 @@ export const dataMasterVinilo = [
     promocionId: "promo-julio-2025",
     categoria: "Ofertas",
     disponibilidad: "En stock",
-    estadoProducto: "Oferta", // Un estado específico para ofertas o "Regular" si lo manejas solo con precioOferta
+    estadoProducto: "Nuevo",
   },
   {
     id: 3002,
@@ -247,7 +246,7 @@ export const dataMasterVinilo = [
     promocionId: "promo-verano-2025",
     categoria: "Ofertas",
     disponibilidad: "En stock",
-    estadoProducto: "Oferta", // Nuevo campo
+    estadoProducto: "Nuevo", 
   },
 
   // Página 4: Ediciones Especiales / Coleccionables
@@ -278,7 +277,7 @@ export const dataMasterVinilo = [
     promocionId: null,
     categoria: "Ediciones Especiales",
     disponibilidad: "Últimas unidades",
-    estadoProducto: "Destacado", // Puede ser "Destacado" o un estado "Edición Especial" propio
+    estadoProducto: "Nuevo", 
   },
   {
     id: 4002,
