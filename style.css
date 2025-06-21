@@ -1,3 +1,11 @@
+/* Style banner inicio */
+
+.inamoto-contenedor-banner-img img{
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+}
+
 /* Style card nuevo inicio */
 
 .inamoto-contendor-grid-card {
@@ -7,7 +15,6 @@ grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
   padding: 1rem; 
   justify-items: center;
 }
-
 
 .inamoto-card-text-height {
   height: 96px;

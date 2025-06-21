@@ -21,9 +21,9 @@ new Splide("#inamotoBannerCauroselVinilo", {
   pagination: false,
   gap: 5,
 
-  arrows: false,
+  arrows: true,
   autoplay: true,
-  drag: false,
+  drag: true,
 }).mount();
 
 
