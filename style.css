@@ -1,18 +1,18 @@
 /* Style banner inicio */
 
-.inamoto-contenedor-banner-img img{
-    width: 100%;
-    object-fit: cover;
-    height: 500px;
+.inamoto-contenedor-banner-img img {
+  width: 100%;
+  object-fit: cover;
+  height: 500px;
 }
 
 /* Style card nuevo inicio */
 
 .inamoto-contendor-grid-card {
   display: grid;
-grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
-  gap: 2rem; 
-  padding: 1rem; 
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 2rem;
+  padding: 1rem;
   justify-items: center;
 }
 
@@ -21,5 +21,25 @@ grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
 }
 
 
-/* FOOTER */
+/* CONTACTO */
 
+.card-form {
+  background-color: #ffffff;
+  border-radius: 0.5rem; /* rounded-lg en Tailwind */
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* shadow-xl en Tailwind */
+  padding: 2rem; /* p-8 en Tailwind */
+}
+/* Ajuste para que los mensajes de invalid-feedback aparezcan correctamente */
+.form-control.is-invalid ~ .invalid-feedback {
+  display: block;
+}
+/* Color para el encabezado del formulario */
+.form-title {
+  color: #212529; /* text-gray-900 en Tailwind, dark en Bootstrap */
+}
+/* Color para el texto descriptivo */
+.form-description {
+  color: #495057; /* text-gray-700 en Tailwind, secondary en Bootstrap */
+}
+
+/* FINAL CONTACTO */
