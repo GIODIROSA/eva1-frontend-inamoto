@@ -82,6 +82,9 @@ document.addEventListener("DOMContentLoaded", () => {
   container.appendChild(fragment);
 });
 
+
+
+
 //Formulario
 
 const form = document.getElementById("contactForm");
@@ -238,3 +241,4 @@ fields.forEach(({ input, errorId, validator }) => {
   input.addEventListener("blur", () => validator(input, errorId));
   input.addEventListener("input", () => clearError(input, errorId));
 });
+
