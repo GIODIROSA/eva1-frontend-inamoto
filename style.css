@@ -66,26 +66,25 @@ height: 50px;
 
 .card-form {
   background-color: #ffffff;
-  border-radius: 0.5rem; /* rounded-lg en Tailwind */
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* shadow-xl en Tailwind */
-  padding: 2rem; /* p-8 en Tailwind */
+  border-radius: 0.5rem; 
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); 
+  padding: 2rem; 
 }
-/* Ajuste para que los mensajes de invalid-feedback aparezcan correctamente */
+
 .form-control.is-invalid ~ .invalid-feedback {
   display: block;
 }
-/* Color para el encabezado del formulario */
+
 .form-title {
-  color: #212529; /* text-gray-900 en Tailwind, dark en Bootstrap */
+  color: #212529; 
 }
-/* Color para el texto descriptivo */
 .form-description {
-  color: #495057; /* text-gray-700 en Tailwind, secondary en Bootstrap */
+  color: #495057; 
 }
 
 .map-responsive {
   overflow: hidden;
-  padding-bottom: 56.25%; /* Relación de aspecto 16:9 (altura/ancho) */
+  padding-bottom: 56.25%; 
   position: relative;
   height: 0;
 }
