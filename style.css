@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
   font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
@@ -67,6 +70,21 @@ height: 50px;
 /* Color para el texto descriptivo */
 .form-description {
   color: #495057; /* text-gray-700 en Tailwind, secondary en Bootstrap */
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%; /* Relación de aspecto 16:9 (altura/ancho) */
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 /* FINAL CONTACTO */
