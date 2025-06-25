@@ -14,7 +14,7 @@ export const dataMasterVinilo = [
       "El esperado regreso de Los Viajeros del Sonido con un álbum que fusiona lo clásico y lo moderno.",
     descripcionLarga:
       "Un viaje nostálgico a través de diez nuevas composiciones y dos bonus tracks remasterizados. Grabado en Abbey Road Studios, este vinilo de 180 gramos ofrece una calidad de sonido inigualable, transportándote a la época dorada de la música pop. Incluye inserto con letras y fotos exclusivas.",
-    portadaUrl: "./assets/img/default-imagen.jpg",
+    portadaUrl: "./asset/img/musica-01.jpg",
     imagenesAdicionales: [
       "https://ejemplo.com/imagenes/vinilos/melodias-ayer-reverso.jpg",
       "https://ejemplo.com/imagenes/vinilos/melodias-ayer-detalle.jpg",
@@ -51,8 +51,7 @@ export const dataMasterVinilo = [
       "Una compilación imprescindible de los mejores ritmos electrónicos para tus noches.",
     descripcionLarga:
       "Dos discos llenos de beats hipnóticos y melodías contagiosas. 'Ritmos Nocturnos' es la banda sonora perfecta para cualquier fiesta o sesión de escucha relajada. Masterizado para vinilo, captura la profundidad y energía del sonido electrónico moderno.",
-    portadaUrl:
-      "https://ejemplo.com/imagenes/vinilos/ritmos-nocturnos-portada.jpg",
+       portadaUrl: "./asset/img/musica-02.jpg",
     imagenesAdicionales: [],
     tags: ["electronica", "oferta"],
     reseñas: [
@@ -81,7 +80,7 @@ export const dataMasterVinilo = [
       "El debut introspectivo de Aurora Smith, una joya del folk contemporáneo.",
     descripcionLarga:
       "Primer álbum de larga duración de la prometedora cantautora Aurora Smith. Con letras poéticas y melodías etéreas, este vinilo de edición limitada (solo 500 copias numeradas) es un testimonio de su talento. Incluye una litografía firmada por la artista.",
-    portadaUrl: "https://ejemplo.com/imagenes/vinilos/aurora-smith-portada.jpg",
+    portadaUrl: "./asset/img/musica-03.jpg",
     imagenesAdicionales: [],
     tags: ["edicion-limitada", "folk", "imperdible"],
     reseñas: [],
@@ -105,8 +104,7 @@ export const dataMasterVinilo = [
       "El álbum que definió a Los Gigantes y el rock de una generación.",
     descripcionLarga:
       "Un clásico atemporal del rock, remasterizado para vinilo con el máximo cuidado. Contiene himnos generacionales que resuenan hoy como ayer. Perfecto para coleccionistas y nuevos oyentes.",
-    portadaUrl:
-      "https://ejemplo.com/imagenes/vinilos/gigantes-furia-portada.jpg",
+    portadaUrl: "./asset/img/musica-04.jpg",
     imagenesAdicionales: [],
     tags: ["rock", "clasico", "imprescindible"],
     reseñas: [
@@ -135,8 +133,7 @@ export const dataMasterVinilo = [
       "Una obra maestra del jazz, con improvisaciones que te transportarán.",
     descripcionLarga:
       "Este vinilo remasterizado captura la esencia de una noche de jazz de los años 60. Las improvisaciones magistrales de Miles Blue y su cuarteto son un deleite auditivo para cualquier amante del género. Imprescindible en tu colección.",
-    portadaUrl:
-      "https://ejemplo.com/imagenes/vinilos/miles-blue-jazz-portada.jpg",
+    portadaUrl: "./asset/img/musica-05.jpg",
     imagenesAdicionales: [],
     tags: ["jazz", "clasico", "instrumental"],
     reseñas: [],
@@ -159,8 +156,7 @@ export const dataMasterVinilo = [
       "El álbum debut que puso a MC Rima en el mapa del hip hop underground.",
     descripcionLarga:
       "Un hito del hip hop de los 90. Las letras crudas y el flow inconfundible de MC Rima se combinan con beats que te harán mover la cabeza. Una edición en doble LP para una experiencia completa.",
-    portadaUrl:
-      "https://ejemplo.com/imagenes/vinilos/mc-rima-hiphop-portada.jpg",
+    portadaUrl: "./asset/img/musica-06.jpg",
     imagenesAdicionales: [],
     tags: ["hiphop", "rap", "90s"],
     reseñas: [],
@@ -183,8 +179,7 @@ export const dataMasterVinilo = [
       "Melodías suaves y letras introspectivas de la banda revelación indie.",
     descripcionLarga:
       "El segundo álbum de Las Hojas Caídas que consolida su sonido único. Perfecto para tardes de relax y reflexión. Vinilo de alta calidad con arte de portada exclusivo.",
-    portadaUrl:
-      "https://ejemplo.com/imagenes/vinilos/hojas-caidas-indie-portada.jpg",
+   portadaUrl: "./asset/img/musica-07.jpg",
     imagenesAdicionales: [],
     tags: ["indie", "pop", "oferta"],
     reseñas: [
@@ -215,7 +210,7 @@ export const dataMasterVinilo = [
       "Una compilación imperdible de los himnos de los años 80.",
     descripcionLarga:
       "Tres discos repletos de los mayores éxitos de la década de los 80s. Revive la nostalgia con este set de vinilos que incluye clásicos del pop, new wave y synth-pop. Edición limitada en oferta.",
-    portadaUrl: "https://ejemplo.com/imagenes/vinilos/80s-exitos-portada.jpg",
+      portadaUrl: "./asset/img/musica-08.jpg",
     imagenesAdicionales: [],
     tags: ["oferta", "80s", "compilacion", "coleccion"],
     reseñas: [],
@@ -238,8 +233,7 @@ export const dataMasterVinilo = [
       "La emotividad de El Solitario en una íntima sesión en vivo.",
     descripcionLarga:
       "Captura la magia de El Solitario en su concierto más íntimo. Grabado en directo, este vinilo te sumerge en la profundidad de sus letras y melodías. Últimas unidades con descuento.",
-    portadaUrl:
-      "https://ejemplo.com/imagenes/vinilos/solitario-acustico-portada.jpg",
+         portadaUrl: "./asset/img/musica-09.jpg",
     imagenesAdicionales: [],
     tags: ["oferta", "envivo", "balada"],
     reseñas: [],
@@ -264,8 +258,7 @@ export const dataMasterVinilo = [
       "Una obra vanguardista en vinilo transparente, para los más audaces.",
     descripcionLarga:
       "La banda sonora de un futuro distópico. 'El Origen del Ruido' es una experiencia auditiva desafiante y única. Esta edición especial viene en vinilo transparente de alta calidad, empaquetado en una caja de lujo con arte exclusivo y un manifiesto del artista.",
-    portadaUrl:
-      "https://ejemplo.com/imagenes/vinilos/maquina-sonora-transparente-portada.jpg",
+        portadaUrl: "./asset/img/musica-10.jpg",
     imagenesAdicionales: [],
     tags: [
       "edicion-especial",
@@ -293,8 +286,7 @@ export const dataMasterVinilo = [
       "Un box set de lujo con la obra completa de la legendaria Orquesta Eterna.",
     descripcionLarga:
       "Cuatro vinilos que recopilan grabaciones inéditas y remasterizadas de la aclamada Orquesta Eterna. Presentado en un elegante box set con un libro de tapa dura que detalla la historia y legado de la orquesta. Un tesoro para amantes de la música clásica.",
-    portadaUrl:
-      "https://ejemplo.com/imagenes/vinilos/sinfonia-olvidada-boxset-portada.jpg",
+          portadaUrl: "./asset/img/musica-11.jpg",
     imagenesAdicionales: [],
     tags: ["edicion-especial", "coleccionable", "clasica", "box-set"],
     reseñas: [
