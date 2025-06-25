@@ -167,7 +167,7 @@ export const dataMasterVinilo = [
     promocionId: null,
     categoria: "Hip Hop",
     disponibilidad: "En stock",
-    estadoProducto: "Regular", // Nuevo campo
+    estadoProducto: "Regular", 
   },
   {
     id: 2004,
@@ -200,7 +200,7 @@ export const dataMasterVinilo = [
     estadoProducto: "Nuevo", 
   },
 
-  // Página 3: Ofertas y Promociones
+ 
   {
     id: 3001,
     nombre: "Grandes Éxitos de los 80s",
@@ -208,7 +208,7 @@ export const dataMasterVinilo = [
     genero: "Pop / New Wave",
     formato: "Triple LP",
     precio: 45.0,
-    precioOferta: 30.0, // Descuento del 33%
+    precioOferta: 30.0, 
     stock: 20,
     fechaLanzamiento: "2020-01-01",
     descripcionCorta:
@@ -231,7 +231,7 @@ export const dataMasterVinilo = [
     genero: "Balada / Acústico",
     formato: "LP",
     precio: 20.0,
-    precioOferta: 15.0, // Descuento del 25%
+    precioOferta: 15.0, 
     stock: 15,
     fechaLanzamiento: "2021-05-10",
     descripcionCorta:
