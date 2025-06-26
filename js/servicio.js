@@ -14,48 +14,48 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const fragment = document.createDocumentFragment();
 
-        // Puedes filtrar aquí si solo quieres "Nuevos" o dejarlo así para todos los productos
-        const productosACargar = dataMasterVinilo; // Muestra todos los productos
+ 
+        const productosACargar = dataMasterVinilo; 
 
         if (!productosACargar || productosACargar.length === 0) {
             catalogoServiciosContainer.innerHTML =
                 '<p class="text-gray-600 text-center col-span-full">No hay productos disponibles por el momento.</p>';
-            return; // Salir si no hay productos
+            return; 
         }
 
         productosACargar.forEach((producto) => {
-            const card = templateCard.content.cloneNode(true); // Clonar el contenido del template
+            const card = templateCard.content.cloneNode(true); 
 
-            // Seleccionar elementos dentro de la tarjeta clonada
+           
             const img = card.querySelector(".card-img-top");
             const title = card.querySelector(".card-title");
             const description = card.querySelector(".card-text");
             const price = card.querySelector(".card-price");
 
-            // Rellenar la tarjeta con los datos del producto
+          
             img.src = producto.portadaUrl;
             img.alt = `Portada de ${producto.nombre}`;
             img.onerror = function () {
-                this.onerror = null; // Evita bucles infinitos en caso de error repetido
-                this.src = "./asset/img/default-imagen.jpg"; // Imagen de fallback
+                this.onerror = null; 
+                this.src = "./asset/img/default-imagen.jpg"; 
             };
 
             title.textContent = producto.nombre;
             description.textContent = producto.descripcionCorta;
 
-            // Formatear el precio a CLP (pesos chilenos)
+            
             const formattedPrice = new Intl.NumberFormat("es-CL", {
                 style: "currency",
                 currency: "CLP",
-                minimumFractionDigits: 3, // CLP no usa decimales en billetes/monedas
-            }).format(producto.precioOferta || producto.precio); // Usa precioOferta si existe, si no, precio normal
+                minimumFractionDigits: 3, 
+            }).format(producto.precioOferta || producto.precio); 
 
             price.textContent = formattedPrice;
 
-            fragment.appendChild(card); // Añadir la tarjeta al fragmento
+            fragment.appendChild(card); 
         });
 
-        catalogoServiciosContainer.appendChild(fragment); // Añadir todas las tarjetas al DOM de una vez
+        catalogoServiciosContainer.appendChild(fragment); // 
     } else {
         console.log("Los elementos del catálogo no están presentes en esta página. No se cargará el catálogo.");
     }
